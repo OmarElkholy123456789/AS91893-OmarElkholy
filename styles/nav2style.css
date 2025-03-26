@@ -9,19 +9,28 @@
     margin: 0 auto;
 }
 
+header {
+    background-color: #8DA7BE
+}
+
 #logo img{
-    padding-top: 7px;
-    padding-left: 30px;
-    position: fixed;
-    width: 90px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: black;
+    padding-top: 15px;
+}
+
+#logo img:hover {
+    scale: 105%;
 }
 
 nav {
-    height: 80px;
+    height: 100px;
     background-color: #8DA7BE;
     text-decoration: none;
     font-family: cinemasunday;
-
 }
 
 ul {
@@ -30,8 +39,8 @@ ul {
     list-style-type: none;
     margin: 0 auto;
     text-align: center;
-    padding-top: 28px;
-    padding-left: 110px;
+    padding-left: 93px;
+    padding-top: 30px;
 }
 
 li {

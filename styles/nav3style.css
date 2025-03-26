@@ -1,0 +1,71 @@
+@font-face {
+    font-family: cinemasunday;
+    src: url(resources/fonts/Cinema-Sunday-Font/CinemasundaydemofontRegular-MVzop.otf);
+}
+
+#page_container {
+    width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #8DA7BE
+}
+
+#logo img{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: black;
+    padding-top: 15px;
+}
+
+#logo img:hover {
+    scale: 105%;
+}
+
+nav {
+    height: 100px;
+    background-color: #8DA7BE;
+    text-decoration: none;
+    font-family: cinemasunday;
+}
+
+ul {
+    width: 900px;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 93px;
+    padding-top: 30px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 65px;
+}
+
+li a {
+    color: rgba(0, 0, 0, 0.7);
+    height: 60px;
+    font-family: cinemasunday;
+    text-decoration: none;
+    font-size: 16pt;
+    background-color: #F2E6D6;
+    padding: 2px 15px 3px 15px;
+    border-radius: 15px;
+}
+
+li a:hover {
+    color: #084b86;
+    text-decoration: 1px underline;
+    text-underline-offset: 2px;
+}
+
+#current {
+    text-underline-offset: 2px;
+    text-decoration: 1px underline;
+}
