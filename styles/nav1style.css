@@ -9,6 +9,13 @@
     margin: 0 auto;
 }
 
+#logo img{
+    padding-top: 7px;
+    padding-left: 30px;
+    position: fixed;
+    width: 90px;
+}
+
 nav {
     height: 80px;
     background-color: #8DA7BE;
@@ -17,40 +24,39 @@ nav {
 
 }
 
-nav img {
-    display: block;
-    float: left;
-    width: 150px;
-}
-
 ul {
     width: 900px;
     display: inline-block;
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    padding-top: 27px;
     text-align: center;
+    padding-top: 28px;
+    padding-left: 110px;
 }
 
 li {
     display: inline-block;
+    padding-right: 65px;
 }
 
 li a {
-    color: black;
+    color: rgba(0, 0, 0, 0.7);
     height: 60px;
     font-family: cinemasunday;
     text-decoration: none;
     font-size: 16pt;
-    opacity: 0.7;
+    background-color: #F2E6D6;
+    padding: 2px 15px 3px 15px;
+    border-radius: 15px;
 }
 
-li a :hover {
-    text-decoration: underline;
+li a:hover {
+    color: #084b86;
+    text-decoration: 1px underline;
+    text-underline-offset: 2px;
 }
 
 #current {
-    border-bottom: 1.5px solid black;
+    text-underline-offset: 2px;
+    text-decoration: 1px underline;
 }
