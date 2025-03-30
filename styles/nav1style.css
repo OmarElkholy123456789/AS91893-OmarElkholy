@@ -4,16 +4,16 @@
 }
 
 #page_container {
-    width: 1000px;
+    width: 1100px;
     padding: 0;
     margin: 0 auto;
 }
 
 #logo img{
     padding-top: 7px;
-    padding-left: 30px;
+    padding-left: 25px;
     position: fixed;
-    width: 90px;
+    width: 110px;
 }
 
 #logo img:hover {
@@ -21,7 +21,7 @@
 }
 
 nav {
-    height: 80px;
+    height: 90px;
     background-color: #8DA7BE;
     text-decoration: none;
     font-family: cinemasunday;
@@ -29,19 +29,19 @@ nav {
 }
 
 ul {
-    width: 900px;
+    width: 1100px;
     display: inline-block;
     list-style-type: none;
     margin: 0 auto;
     text-align: center;
-    padding-top: 28px;
-    padding-left: 132px;
-    text-shadow: 0px 13px 15px black;
+    padding-top: 31px;
+    padding-left: 110px;
 }
 
 li {
     display: inline-block;
-    padding-right: 80px;
+    padding-right: 110px;
+    
 }
 
 li a {
@@ -53,6 +53,7 @@ li a {
     background-color: #F2E6D6;
     padding: 2px 15px 3px 15px;
     border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
 }
 
 li a:hover {
