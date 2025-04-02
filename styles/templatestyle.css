@@ -12,9 +12,10 @@
 }
 
 #logo{
-    padding-top: 3px;
+    float: left;
+    padding-top: 4px;
     padding-left: 25px;
-    width: 130px;
+    width: 110px;
 }
 
 #logo:hover {
@@ -30,13 +31,11 @@ nav {
 }
 
 nav ul {
-    width: 1100px;
+    
     display: inline-block;
     list-style-type: none;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 0px;
-    padding-left: 217px;
+    padding-top: 20px;
+    padding-left: 150px;
 }
 
 nav li {
@@ -77,9 +76,25 @@ footer {
 }
 
 #footer_nav {
+    float: left;
+}
+
+#footer_nav h1 {
     color: #F2E6D6;
-    font-size: 30pt;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    padding-left: 200px;
+}
+
+#footer_nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#footer_nav li a {
+    color: #F2E6D6;
+    font-family: cinemasunday;
+}
+
+#contact {
+    float: left;
+    padding-left: 300px;
 }
