@@ -35,7 +35,7 @@ nav ul {
     display: inline-block;
     list-style-type: none;
     padding-top: 20px;
-    padding-left: 150px;
+    padding-left: 160px;
 }
 
 nav li {
@@ -75,26 +75,71 @@ footer {
     background-color: #8DA7BE;
 }
 
+#footerlogo img{
+    float: left;
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
 #footer_nav {
     float: left;
+    padding-left: 200px;
+       
 }
 
 #footer_nav h1 {
     color: #F2E6D6;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: 0;
 }
 
 #footer_nav ul {
-    text-decoration: none;
     list-style-type: none;
-    overflow: hidden;
+    font-size: 15pt;
+    text-align: center;
+    display: inline;
 }
 
 #footer_nav li a {
     color: #F2E6D6;
     font-family: cinemasunday;
+    text-decoration: none;
+}
+
+#footer_nav li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 #contact {
     float: left;
     padding-left: 300px;
+    text-align: center;
+}
+
+#contact h1 {
+    color: #F2E6D6;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: 0;
+}
+
+#contact ul {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#contact li a {
+    color: #F2E6D6;
+    font-family: cinemasunday;
+    text-decoration: none;
+}
+
+#contact li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
