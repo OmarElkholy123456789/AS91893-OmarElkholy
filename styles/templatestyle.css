@@ -31,11 +31,10 @@ nav {
 }
 
 nav ul {
-    
     display: inline-block;
     list-style-type: none;
     padding-top: 20px;
-    padding-left: 160px;
+    padding-left: 170px;
 }
 
 nav li {
@@ -77,22 +76,22 @@ footer {
 
 #footerlogo img{
     float: left;
-    width: 200px;
-    padding-top: 40px;
+    width: 250px;
+    padding-top: 23px;
     padding-left: 50px;
 }
 
 #footer_nav {
     float: left;
     padding-left: 200px;
-       
+    padding-top: 30px;
 }
 
 #footer_nav h1 {
     color: #F2E6D6;
     text-decoration: underline;
     text-underline-offset: 3px;
-    margin: 0;
+    margin: -5px;
 }
 
 #footer_nav ul {
@@ -100,6 +99,10 @@ footer {
     font-size: 15pt;
     text-align: center;
     display: inline;
+}
+
+#footer_nav li {
+    padding-bottom: 10px;
 }
 
 #footer_nav li a {
@@ -115,7 +118,8 @@ footer {
 
 #contact {
     float: left;
-    padding-left: 300px;
+    padding-left: 220px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -123,7 +127,7 @@ footer {
     color: #F2E6D6;
     text-decoration: underline;
     text-underline-offset: 3px;
-    margin: 0;
+    margin: -5px;
 }
 
 #contact ul {
@@ -133,10 +137,20 @@ footer {
     font-size: 15pt;
 }
 
+#contact li {
+    padding-top: 0px;
+    padding-bottom: 23px;
+}
+
 #contact li a {
     color: #F2E6D6;
     font-family: cinemasunday;
     text-decoration: none;
+}
+
+#contact img {
+    width: 25px;
+    padding-top: 3px;
 }
 
 #contact li a:hover {
