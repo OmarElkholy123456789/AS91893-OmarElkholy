@@ -13,13 +13,22 @@
 
 #logo{
     float: left;
-    padding-top: 4px;
-    padding-left: 25px;
+    margin-top: 4px;
+    margin-left: 25px;
     width: 110px;
+}
+
+#logo img {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+    border-radius: 15px;
 }
 
 #logo:hover {
     scale: 105%;
+}
+
+header {
+    border-bottom: #F2E6D6;
 }
 
 nav {
@@ -27,14 +36,13 @@ nav {
     background-color: #8DA7BE;
     text-decoration: none;
     font-family: cinemasunday;
-
 }
 
 nav ul {
     display: inline-block;
     list-style-type: none;
     padding-top: 20px;
-    padding-left: 170px;
+    padding-left: 175px;
 }
 
 nav li {
@@ -52,8 +60,9 @@ nav li a {
     background-color: #F2E6D6;
     padding: 2px 15px 3px 15px;
     border-radius: 15px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
+
 nav li a:hover {
     color: #084b86;
     text-decoration: 1px underline;
@@ -63,6 +72,31 @@ nav li a:hover {
 #current {
     text-underline-offset: 2px;
     text-decoration: 1px underline;
+}
+
+#banner_img h1 {
+    position: absolute;
+    z-index: 1;
+    color: #F2E6D6;
+    font-size: 45pt;
+    padding-left: 429px;
+}
+
+#banner_img {
+    background-color: #8DA7BE;
+    margin-top: 5px;
+    height: 590px;
+    position: relative;
+}
+
+#banner_img img {
+    object-fit: cover;
+    width: 1240px;
+    height: 530px;
+    padding-top: 26px;
+    padding-left: 30px;
+    border-radius: 60px;
+    filter: brightness(75%);
 }
 
 section {
@@ -77,8 +111,9 @@ footer {
 #footerlogo img{
     float: left;
     width: 250px;
-    padding-top: 23px;
-    padding-left: 50px;
+    margin-top: 23px;
+    margin-left: 50px;
+    border-radius: 30px;
 }
 
 #footer_nav {
