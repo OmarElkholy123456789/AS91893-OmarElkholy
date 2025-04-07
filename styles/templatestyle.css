@@ -74,14 +74,6 @@ nav li a:hover {
     text-decoration: 1px underline;
 }
 
-#banner_img h1 {
-    position: absolute;
-    z-index: 1;
-    color: #F2E6D6;
-    font-size: 45pt;
-    padding-left: 429px;
-}
-
 #banner_img {
     background-color: #8DA7BE;
     margin-top: 5px;
@@ -89,14 +81,34 @@ nav li a:hover {
     position: relative;
 }
 
+#banner_img h1 {
+    position: absolute;
+    z-index: 1;
+    color: #F2E6D6;
+    font-size: 80pt;
+    padding-left: 265px;
+    padding-top: 80px;
+    text-decoration: underline 3px;
+    text-underline-offset: 40px;
+}
+
+#banner_img p {
+    position: absolute;
+    z-index: 1;
+    color: #F2E6D6;
+    font-size: 32pt;
+    padding-left: 345px;
+    padding-top: 270px;
+}
+
 #banner_img img {
     object-fit: cover;
     width: 1240px;
     height: 530px;
-    padding-top: 26px;
+    padding-top: 28px;
     padding-left: 30px;
     border-radius: 60px;
-    filter: brightness(75%);
+    filter: brightness(65%);
 }
 
 section {
