@@ -4,47 +4,239 @@
 }
 
 #page_container {
-    width: 1000px;
+    width: 1300px;
+    height: auto;
     padding: 0;
     margin: 0 auto;
+    background-color: #F2E6D6;
+}
+
+#logo{
+    float: left;
+    margin-top: 4px;
+    margin-left: 25px;
+    width: 110px;
+}
+
+#logo img {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+    border-radius: 15px;
+}
+
+#logo:hover {
+    scale: 105%;
+}
+
+header {
+    border-bottom: #F2E6D6;
 }
 
 nav {
+    height: 100px;
     background-color: #8DA7BE;
     text-decoration: none;
-    text-align: center;
     font-family: cinemasunday;
-
 }
 
-ul {
-    width: 900px;
+nav ul {
     display: inline-block;
     list-style-type: none;
-    margin: 0;
-    text-align: center;
-    padding: 0;
-    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 175px;
 }
 
-li {
+nav li {
     display: inline-block;
+    padding-right: 140px;
+    
 }
 
-li a {
-    color: black;
+nav li a {
+    color: rgba(0, 0, 0, 0.7);
     height: 60px;
-    display: block;
-    padding: 15px;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-family: cinemasunday;
     text-decoration: none;
     font-size: 16pt;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    background-color: #F2E6D6;
+    padding: 2px 15px 3px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
-li a :hover {
+nav li a:hover {
+    color: #084b86;
+    text-decoration: 1px underline;
+    text-underline-offset: 2px;
+}
+
+#current {
+    text-underline-offset: 2px;
+    text-decoration: 1px underline;
+}
+
+#banner_img {
+    background-color: #8DA7BE;
+    margin-top: 5px;
+    height: 590px;
+    position: relative;
+}
+
+#banner_img h1 {
+    position: absolute;
+    z-index: 1;
+    color: #F2E6D6;
+    font-size: 80pt;
+    padding-left: 265px;
+    padding-top: 80px;
+    text-decoration: underline 3px;
+    text-underline-offset: 40px;
+}
+
+#banner_img p {
+    position: absolute;
+    z-index: 1;
+    color: #F2E6D6;
+    font-size: 32pt;
+    font-weight: bold;
+    padding-left: 345px;
+    padding-top: 270px;
+}
+
+#banner_img img {
+    object-fit: cover;
+    width: 1240px;
+    height: 530px;
+    margin-top: 28px;
+    margin-left: 30px;
+    border-radius: 40px;
+    filter: brightness(65%);
+}
+
+#home {
+    height: 900px;
+}
+
+#home_western img {
+    margin-top: 55px;
+    margin-left: 55px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#home_western li {
+    list-style-type: none;
+    font-size: 15pt;
+    margin-top: -20px;
+    margin-left: 193px;
+}
+
+#home_eastern img {
+    float: right;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 78px;
+    margin-right: 55px;
+}
+
+#home_western li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20pt;
+    background-color: #F2E6D6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+
+#home_western li a:hover {
     text-decoration: underline;
+}
+
+footer {
+    height: 230px;
+    background-color: #8DA7BE;
+}
+
+#footerlogo img{
+    float: left;
+    width: 250px;
+    margin-top: 23px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+#footer_nav {
+    float: left;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+#footer_nav h1 {
+    color: #F2E6D6;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: -5px;
+}
+
+#footer_nav ul {
+    list-style-type: none;
+    font-size: 15pt;
+    text-align: center;
+    display: inline;
+}
+
+#footer_nav li {
+    padding-bottom: 10px;
+}
+
+#footer_nav li a {
+    color: #F2E6D6;
+    font-family: cinemasunday;
+    text-decoration: none;
+}
+
+#footer_nav li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+#contact {
+    float: left;
+    padding-left: 220px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#contact h1 {
+    color: #F2E6D6;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: -5px;
+}
+
+#contact ul {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#contact li {
+    padding-top: 0px;
+    padding-bottom: 23px;
+}
+
+#contact li a {
+    color: #F2E6D6;
+    font-family: cinemasunday;
+    text-decoration: none;
+}
+
+#contact img {
+    width: 25px;
+    padding-top: 3px;
+}
+
+#contact li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
