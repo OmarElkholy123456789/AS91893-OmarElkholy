@@ -116,22 +116,21 @@ nav li a:hover {
 }
 
 #home_western {
-    float: left;
+    
     width: 1300px;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
 
 #western_txt {
     text-align: center;
     width: 565px;
-    height: 280px;
-    margin-left: 97px;
-    margin-top: 55px;
+    margin-left: 95px;
+    height: 0px;
+    margin-top: 82px;
     color: #F2E6D6;
     background-color: #7999B5;
-    padding: 20px 50px 0px 50px;
+    padding: 20px 50px 225px 50px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
@@ -141,8 +140,8 @@ nav li a:hover {
 }
 
 #home_western img {
-    margin-top: 55px;
-    margin-left: 55px;
+    margin-top: 50px;
+    margin-left: 50px;
     width: 500px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
@@ -173,6 +172,68 @@ nav li a:hover {
     text-decoration: underline;
 }
 
+fsdfsdfsd
+
+#home_eastern {
+    display: flex;
+    clear: both;
+    width: 1300px;
+    flex-direction: row-reverse;   
+}
+
+#eastern_txt {
+    float: left;
+    text-align: center;
+    width: 565px;
+    margin-left: 95px;
+    height: 0px;
+    margin-top: 82px;
+    color: #F2E6D6;
+    background-color: #7999B5;
+    padding: 20px 50px 225px 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px
+}
+
+#eastern_img {
+    /*margin-top: 78px;
+    margin-left: 745px;*/
+    width: 500px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+
+#home_eastern img {
+    width: 500px;
+}
+
+#home_eastern p {
+    font-size: 17pt;
+}
+
+#home_eastern li {
+    list-style-type: none;
+    font-size: 15pt;
+    margin-top: -20px;
+    margin-left: 3px;
+}
+
+#home_eastern li a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 20pt;
+    background-color: #DDCEBA;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+
+#home_eastern li a:hover {
+    text-decoration: underline;
+}
+
+/*
 #home_eastern {
     float: left;
 }
@@ -205,6 +266,8 @@ nav li a:hover {
 #home_eastern li a:hover {
     text-decoration: underline;
 }
+
+*/
 
 footer {
     height: 230px;
