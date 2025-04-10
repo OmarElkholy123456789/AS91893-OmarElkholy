@@ -124,13 +124,19 @@ nav li a:hover {
 }
 
 #western_txt {
-    /*float: left;*/
-    margin-left: 100px;
-    margin-top: 25px;
+    text-align: center;
+    width: 565px;
+    height: 280px;
+    margin-left: 97px;
+    margin-top: 55px;
+    color: #F2E6D6;
+    background-color: #7999B5;
+    padding: 20px 50px 0px 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
 #western_img {
-    /*float: left;*/
     width: 500px
 }
 
@@ -139,11 +145,11 @@ nav li a:hover {
     margin-left: 55px;
     width: 500px;
     border-radius: 20px;
-    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
 #home_western p {
-    font-size: 16pt;
+    font-size: 17pt;
 }
 
 #home_western li {
@@ -169,7 +175,6 @@ nav li a:hover {
 
 #home_eastern {
     float: left;
-    /*clear: both;*/
 }
 
 #home_eastern img {
@@ -177,6 +182,7 @@ nav li a:hover {
     border-radius: 20px;
     margin-top: 78px;
     margin-left: 745px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
 #home_eastern li {
