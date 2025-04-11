@@ -164,16 +164,66 @@ nav li a:hover {
     text-decoration: underline;
 }
 
+fdsfds
+
 #home_eastern {
+    width: 1300px;
     display: flex;
-    clear: both;
+    flex-direction: row-reverse;   
+}
+
+#eastern_img img {
+    margin-top: 88px;
+    margin-left: 750px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+
+#eastern_text {
+    font-size: 17pt;
+    text-align: center;
+    width: 565px;
+    margin-top: -318px;
+    margin-left: 45px;
+    height: 0px;
+    color: #F2E6D6;
+    background-color: #7999B5;
+    padding: 20px 50px 225px 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+
+#home_eastern li {
+    list-style-type: none;
+    font-size: 15pt;
+    margin-top: -20px;
+    margin-left: 900px;
+}
+
+#home_eastern li a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 20pt;
+    background-color: #DDCEBA;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+
+#home_eastern li a:hover {
+    text-decoration: underline;
+}
+
+/*
+#home_eastern {
     width: 1300px;
     flex-direction: row-reverse;   
 }
 
 #home_eastern img {
-    margin-top: 0px;
-    margin-left: 1000px;
+    margin-bottom: -300px;
+    margin-left: 800px;
     width: 500px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
@@ -212,6 +262,8 @@ nav li a:hover {
 #home_eastern li a:hover {
     text-decoration: underline;
 }
+
+*/
 
 /*
 #home_eastern {
