@@ -63,7 +63,6 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #084b86;
     text-decoration: 1px underline;
     text-underline-offset: 2px;
 }
@@ -109,10 +108,6 @@ nav li a:hover {
     margin-left: 30px;
     border-radius: 40px;
     filter: brightness(65%);
-}
-
-section {
-    height: 500px;
 }
 
 footer {

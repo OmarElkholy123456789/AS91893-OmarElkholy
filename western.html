@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav1</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <div id="page_container">
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="resources/images/logo.png" alt="Logo" id="logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" id="current">Home</a></li>
+                    <li><a href="#">Western</a></li>
+                    <li><a href="#">Eastern</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="banner_img">
+            <h1>Food Adventures</h1>
+            <p>Learn About the Foods You Love</p>
+            <img src="resources/images/bannerimage.jpg" alt="Banner Image">
+        </div>
+        <section id="western">
+          
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <h1>Pancakes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
+                <img src="resources/images/Pancakes.jpeg" alt="Pancakes">
+              </div>
+              <div class="swiper-slide">
+                <h1>Pancakes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
+                <img src="resources/images/Pancakes.jpeg" alt="Pancakes">
+              </div>
+              <div class="swiper-slide">
+                <h1>dsad</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
+                <img src="resources/images/Pancakes.jpeg" alt="Pancakes">
+              </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+          <script>
+            const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+          </script>
+
+        </section>
+        <footer>
+            <div id="footerlogo">
+                <a href="index.html"><img src="resources/images/logo.png" alt="Logo"></a>
+            </div>
+            <div id="footer_nav">
+                <h1>Navigation</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Western</a></li>
+                    <li><a href="#">Eastern</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div id="contact">
+                <h1>Contact Us</h1>
+                <ul>
+                    <li><a href="#">Email: oe22097@my.westlake.school.nz</a></li>
+                    <li><a href="#">Phone: 021 128 8731</a></li>
+                    <a href="x.com"><img src="resources/images/twitterlogo.png" alt="Twitter"></a>
+                    <a href="tiktok.com"><img src="resources/images/tiktoklogo.png" alt="TikTok"></a>
+                    <a href="instagram.com"><img src="resources/images/instagramlogo.png" alt=""></a>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
