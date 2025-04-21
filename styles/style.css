@@ -263,9 +263,20 @@ nav li a:hover {
     height: 1000px;
 }
 
+#american {
+    margin-left: 550px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 200px;
+    font-size: 35pt;
+    background-color: #CDE6F5;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+
 .swiper {
     width: 1100px;
-    height: 600px;
+    height: 500px;
     background-color: #7999B5;
     border-radius: 20px;
     margin-top: 50px;
@@ -273,10 +284,10 @@ nav li a:hover {
 
 .swiper-slide img{
     position: absolute;
-    width: 500px;
-    height: 450px;
+    width: 400px;
+    height: 350px;
     border-radius: 20px;
-    top: 72px;
+    top: 50px;
     left: 50px;
 }
 
@@ -292,8 +303,6 @@ nav li a:hover {
     width: 500px;
     margin-left: 680px;
 }
-
-.swiper-but
 
 /*Styling Footer*/
 
