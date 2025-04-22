@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="resources/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/> 
 </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -32,35 +34,47 @@
         <section id="western">
 
           <h1 id="american">American</h1>
-
           <div class="swiper">
-            <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
-              <!-- Slides -->
               <div class="swiper-slide">
                 <h1>Pancakes</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
-                <img src="resources/images/Pancakes.jpeg" alt="Pancakes">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
+                <a data-fancybox="gallery_1" href="resources/images/Pancakes.jpeg"><img src="resources/images/Pancakes.jpeg" alt="Gallery Image"/></a>
+                <a data-fancybox="gallery_1" href="resources/images/Pancakes.jpeg"></a>
+                <a data-fancybox="gallery_1" href="resources/images/Pancakes.jpeg"></a>
+                <script>
+                  Fancybox.bind("[data-fancybox='gallery_1']", {});
+                </script>
               </div>
+              
               <div class="swiper-slide">
                 <h1>Pancakes</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
-                <img src="resources/images/Pancakes.jpeg" alt="Pancakes">
-              </div>
-              <div class="swiper-slide">
-                <h1>dsad</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
-                <img src="resources/images/Pancakes.jpeg" alt="Pancakes">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
+                <a data-fancybox="gallery_2" href="resources/images/Pancakes.jpeg">
+                <img src="resources/images/Pancakes.jpeg" alt="Gallery Image" width="300" /></a>
+                <a data-fancybox="gallery_2" href="resources/images/Pancakes.jpeg" style="display: none;"></a>
+                <a data-fancybox="gallery_2" href="resources/images/Pancakes.jpeg" style="display: none;"></a>
+                <script>
+                  Fancybox.bind("[data-fancybox='gallery_2']", {});
+                </script>
               </div>
 
+              <div class="swiper-slide">
+                <h1>Pancakes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe soluta ad optio beatae harum ratione deleniti quia vero quas, ducimus quis temporibus consequatur reprehenderit voluptas ipsa officia, at labore.</p>
+                <a data-fancybox="gallery_3" href="resources/images/Pancakes.jpeg">
+                <img src="resources/images/Pancakes.jpeg" alt="Gallery Image" width="300" /></a>
+                <a data-fancybox="gallery_3" href="resources/images/Pancakes.jpeg" style="display: none;"></a>
+                <a data-fancybox="gallery_3" href="resources/images/Pancakes.jpeg" style="display: none;"></a>
+                <script>
+                  Fancybox.bind("[data-fancybox='gallery_3']", {});
+                </script>
+              </div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-          
-            <!-- If we need navigation buttons -->
+
+            <div class="swiper-pagination"></div>>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-
           <script>
             const swiper = new Swiper('.swiper', {
             // Optional parameters

@@ -284,24 +284,30 @@ nav li a:hover {
 
 .swiper-slide img{
     position: absolute;
-    width: 400px;
-    height: 350px;
+    width: 450px;
+    height: 375px;
     border-radius: 20px;
-    top: 50px;
-    left: 50px;
+    top: 62.5px;
+    left: 65px;
 }
 
 .swiper-slide h1 {
     color: #F2E6D6;
-    margin-left: 680px;
+    margin-left: 670px;
     font-size: 50pt;
 }
 
 .swiper-slide p {
-    font-size: 15pt;
+    text-align: center;
+    font-size: 16pt;
     color: #F2E6D6;
-    width: 500px;
-    margin-left: 680px;
+    width: 400px;
+    margin-left: 600px;
+    margin-top: -25px;
+}
+
+.swiper-button-next {
+    color: #F2E6D6;
 }
 
 /*Styling Footer*/
