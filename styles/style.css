@@ -291,6 +291,7 @@ nav li a:hover {
     top: 62.5px;
     left: 65px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+    z-index: -1;
 }
 
 .swiper-slide img:hover {
@@ -303,7 +304,19 @@ nav li a:hover {
     font-size: 50pt;
 }
 
-.swiper-slide p {
+.burgers_h1 {
+    color: #F2E6D6;
+    margin-left: 687px;
+    font-size: 50pt;
+}
+
+.hotdogs_h1 {
+    color: #F2E6D6;
+    margin-left: 680px;
+    font-size: 50pt;
+}
+
+.pancakes_p {
     text-align: center;
     font-size: 17pt;
     color: #F2E6D6;
@@ -312,9 +325,55 @@ nav li a:hover {
     margin-top: -35px;
 }
 
-.swiper-button-prev:hover,
+.burgers_p {
+    text-align: center;
+    font-size: 17pt;
+    color: #F2E6D6;
+    width: 420px;
+    margin-left: 600px;
+    margin-top: -35px;
+}
+
+.hotdogs_p {
+    text-align: center;
+    font-size: 17pt;
+    color: #F2E6D6;
+    width: 420px;
+    margin-left: 600px;
+    margin-top: -35px;
+}
+
+.swiper-slide li {
+    list-style-type: none;
+    font-size: 15pt;
+    margin-top: -42px;
+    margin-left: 164px;
+}
+
+.swiper-slide li a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 20pt;
+    background-color: #DDCEBA;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+
+.swiper-button-prev::after {
+    color: black;
+  }
+
+.swiper-button-next::after {
+    color: black;
+}
+
+.swiper-button-prev:hover{
+    scale: 110%;
+}
+
 .swiper-button-next:hover {
-    scale: 105%;
+    scale: 110%;
 }
 
 .swiper_2 {
