@@ -41,35 +41,33 @@ nav {
 nav ul {
     display: inline-block;
     list-style-type: none;
-    padding-top: 20px;
-    padding-left: 175px;
+    padding-top: 17px;
 }
 
 nav li {
     display: inline-block;
-    padding-right: 140px;
-    
+    padding-left: 120px;
 }
 
 nav li a {
     color: rgba(0, 0, 0, 0.7);
     height: 60px;
     text-decoration: none;
-    font-size: 16pt;
+    font-size: 22pt;
     background-color: #F2E6D6;
-    padding: 2px 15px 3px 15px;
+    padding: 3px 16px 5px 15px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
 nav li a:hover {
-    text-decoration: 1px underline;
-    text-underline-offset: 2px;
+    text-decoration: 2px underline;
+    text-underline-offset: 4px;
 }
 
 #current {
-    text-underline-offset: 2px;
-    text-decoration: 1px underline;
+    text-underline-offset: 4px;
+    text-decoration: 2px underline;
 }
 
 #banner_img {
@@ -82,7 +80,7 @@ nav li a:hover {
 #banner_img h1 {
     position: absolute;
     z-index: 1;
-    color: #F2E6D6;
+    color: white;
     font-size: 80pt;
     padding-left: 265px;
     padding-top: 80px;
@@ -93,7 +91,7 @@ nav li a:hover {
 #banner_img p {
     position: absolute;
     z-index: 1;
-    color: #F2E6D6;
+    color: white;
     font-size: 32pt;
     font-weight: bold;
     padding-left: 345px;
@@ -102,12 +100,16 @@ nav li a:hover {
 
 #banner_img img {
     object-fit: cover;
-    width: 1240px;
+    width: 1300px;
     height: 530px;
-    margin-top: 28px;
-    margin-left: 30px;
-    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 0px;
     filter: brightness(65%);
+}
+
+#home {
+    height: 100px;
 }
 
 footer {
@@ -117,15 +119,19 @@ footer {
 
 #footerlogo img{
     float: left;
-    width: 250px;
-    margin-top: 23px;
-    margin-left: 50px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 70px;
     border-radius: 30px;
+}
+
+#footerlogo img:hover {
+    scale: 105%;
 }
 
 #footer_nav {
     float: left;
-    padding-left: 200px;
+    padding-left: 170px;
     padding-top: 30px;
 }
 
