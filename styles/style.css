@@ -331,8 +331,8 @@ nav li a:hover {
     position: relative;
 }
 
-/* Styling the American header */
-#american {
+/* Styling the country's headers excluding Middle East */
+#country {
     text-align: center; 
     margin-left: 525px;
     margin-top: 70px;
@@ -465,20 +465,6 @@ nav li a:hover {
     margin-top: 70px;
 }
 
-/* Styling the Italian header */
-#italian {
-    text-align: center;
-    margin-left: 525px;
-    margin-top: 70px;
-    color: rgba(0, 0, 0, 0.7);
-    width: 200px;
-    font-size: 35pt;
-    background-color: #CDE6F5;
-    padding: 10px 30px 10px 30px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
-}
-
 /* Styling the pizza header */
 .pizza_h1 {
     color: #F2E6D6;
@@ -504,20 +490,6 @@ nav li a:hover {
 
 .swiper_3 {
     margin-top: 70px;
-}
-
-/* Styling the French header */
-#french {
-    text-align: center;
-    margin-left: 525px;
-    margin-top: 70px;
-    color: rgba(0, 0, 0, 0.7);
-    width: 200px;
-    font-size: 35pt;
-    background-color: #CDE6F5;
-    padding: 10px 30px 10px 30px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
 /* Styling the croissant header */
@@ -649,20 +621,6 @@ nav li a:hover {
 
 /*Styling China*/
 
-/* Styling the China header */
-#china {
-    text-align: center;
-    margin-left: 525px;
-    margin-top: 70px;
-    color: rgba(0, 0, 0, 0.7);
-    width: 200px;
-    font-size: 35pt;
-    background-color: #CDE6F5;
-    padding: 10px 30px 10px 30px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
-}
-
 /* Styling the hot pot header*/
 .hotpot_h1 {
     color: #F2E6D6;
@@ -685,20 +643,6 @@ nav li a:hover {
 }
 
 /*Styling Japanese*/
-
-/* Styling the Japanese header */
-#japanese {
-    text-align: center;
-    margin-left: 525px;
-    margin-top: 70px;
-    color: rgba(0, 0, 0, 0.7);
-    width: 200px;
-    font-size: 35pt;
-    background-color: #CDE6F5;
-    padding: 10px 30px 10px 30px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
-}
 
 /* Styling the ramen header */
 .ramen_h1 {

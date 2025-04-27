@@ -32,7 +32,7 @@
 
           <!-- Middle Eastern Food -->
           <h1 id="middle_east">Middle East</h1>
-          <div class="swiper swiper_1"> <!-- Swiper Gallery 1 -->
+          <div class="swiper"> <!-- Swiper Gallery 1 -->
               <div class="swiper-wrapper">
                   <div class="swiper-slide"> <!-- Kebab Slide -->
                       <h1 class="kebab_h1">Kebab</h1>
@@ -88,15 +88,15 @@
                   </div>
               </div>
               <!-- pagination and arrows -->
-              <div class="swiper-pagination swiper-pagination-1"></div>
-              <div class="swiper-button-prev swiper-button-prev-1"></div>
-              <div class="swiper-button-next swiper-button-next-1"></div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
           </div>
           
           <!-- Swiper Gallery 2: Chinese food -->
-          <h1 id="china">Chinese</h1>
+          <h1 id="country">Chinese</h1>
           <!-- Swiper container -->
-          <div class="swiper swiper_2">
+          <div class="swiper">
             <!-- Wrapper for slides -->
             <div class="swiper-wrapper">
               <!-- Slide for hot pot -->
@@ -158,15 +158,15 @@
                 </div>
             </div>
             <!-- pagination and slide arrows -->
-            <div class="swiper-pagination swiper-pagination-2"></div>
-            <div class="swiper-button-prev swiper-button-prev-2"></div>
-            <div class="swiper-button-next swiper-button-next-2"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
         
         <!-- Swiper Gallery 3: Japanese -->
-        <h1 id="japanese">Japanese</h1>
+        <h1 id="country">Japanese</h1>
         <!-- Swiper container -->
-          <div class="swiper swiper_3">
+          <div class="swiper">
             <!-- Wrapper for slides -->
             <div class="swiper-wrapper">
               <!-- Slide for ramen -->
@@ -228,9 +228,9 @@
                 </div>
             </div>
             <!-- Slide pagination and arrows -->
-            <div class="swiper-pagination swiper-pagination-3"></div>
-            <div class="swiper-button-prev swiper-button-prev-3"></div>
-            <div class="swiper-button-next swiper-button-next-3"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
         <!-- Gray background stripes -->
         <hr id="hr_5">
@@ -244,41 +244,15 @@
       <!-- Script to initialize all Swipers -->
       <script>
         // Swiper 1
-        const swiper1 = new Swiper('.swiper_1', {
+        const swiper1 = new Swiper('.swiper', {
           direction: 'horizontal',
           loop: true,
           pagination: {
-            el: '.swiper-pagination-1',
+            el: '.swiper-pagination',
           },
           navigation: {
-            nextEl: '.swiper-button-next-1',
-            prevEl: '.swiper-button-prev-1',
-          },
-        });
-      
-        // Swiper 2
-        const swiper2 = new Swiper('.swiper_2', {
-          direction: 'horizontal',
-          loop: true,
-          pagination: {
-            el: '.swiper-pagination-2',
-          },
-          navigation: {
-            nextEl: '.swiper-button-next-2',
-            prevEl: '.swiper-button-prev-2',
-          },
-        });
-
-        //Swiper 3
-        const swiper3 = new Swiper('.swiper_3', {
-          direction: 'horizontal',
-          loop: true,
-          pagination: {
-            el: '.swiper-pagination-3',
-          },
-          navigation: {
-            nextEl: '.swiper-button-next-3',
-            prevEl: '.swiper-button-prev-3',
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
           },
         });
       </script>

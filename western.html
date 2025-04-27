@@ -32,9 +32,9 @@
         <section id="western">
 
           <!-- Swiper Gallery 1: American food  -->
-          <h1 id="american">American</h1>
+          <h1 id="country">American</h1>
           <!-- Swiper gallery 1 -->
-          <div class="swiper swiper_1">
+          <div class="swiper">
             <!-- Swiper wrapper -->
               <div class="swiper-wrapper">
                 <!-- Pancakes slide -->
@@ -96,15 +96,15 @@
                   </div>
               </div>
               <!-- swiper pagination and arrows -->
-              <div class="swiper-pagination swiper-pagination-1"></div>
-              <div class="swiper-button-prev swiper-button-prev-1"></div>
-              <div class="swiper-button-next swiper-button-next-1"></div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
           </div>
           
           <!-- Swiper Gallery 2 -->
-          <h1 id="italian">Italian</h1>
+          <h1 id="country">Italian</h1>
           <!-- Italian swiper slides -->
-          <div class="swiper swiper_2">
+          <div class="swiper">
             <!-- Swiper wrapper -->
             <div class="swiper-wrapper">
               <!-- Pizza slide -->
@@ -166,15 +166,15 @@
                 </div>
             </div>
             <!-- Swiper pagination and arrows -->
-            <div class="swiper-pagination swiper-pagination-2"></div>
-            <div class="swiper-button-prev swiper-button-prev-2"></div>
-            <div class="swiper-button-next swiper-button-next-2"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
 
         <!-- Swiper Gallery 3 -->
-        <h1 id="french">French</h1>
+        <h1 id="country">French</h1>
         <!-- French swiper slides -->
-          <div class="swiper swiper_3">
+          <div class="swiper">
             <!-- Swiper wrapper -->
             <div class="swiper-wrapper">
             <!-- Croissant slide -->
@@ -236,9 +236,9 @@
                 </div>
                 <!-- Swiperr pagination and arrows -->
             </div>
-            <div class="swiper-pagination swiper-pagination-3"></div>
-            <div class="swiper-button-prev swiper-button-prev-3"></div>
-            <div class="swiper-button-next swiper-button-next-3"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
         <!-- Gray background stripes -->
         <hr id="hr_5">
@@ -250,42 +250,15 @@
       
       <!-- Swiper.JS JavaScript -->
       <script>
-        // Swiper 1
-        const swiper1 = new Swiper('.swiper_1', {
+        const swiper1 = new Swiper('.swiper', {
           direction: 'horizontal',
           loop: true,
           pagination: {
-            el: '.swiper-pagination-1',
+            el: '.swiper-pagination',
           },
           navigation: {
-            nextEl: '.swiper-button-next-1',
-            prevEl: '.swiper-button-prev-1',
-          },
-        });
-      
-        // Swiper 2
-        const swiper2 = new Swiper('.swiper_2', {
-          direction: 'horizontal',
-          loop: true,
-          pagination: {
-            el: '.swiper-pagination-2',
-          },
-          navigation: {
-            nextEl: '.swiper-button-next-2',
-            prevEl: '.swiper-button-prev-2',
-          },
-        });
-
-        //Swiper 3
-        const swiper3 = new Swiper('.swiper_3', {
-          direction: 'horizontal',
-          loop: true,
-          pagination: {
-            el: '.swiper-pagination-3',
-          },
-          navigation: {
-            nextEl: '.swiper-button-next-3',
-            prevEl: '.swiper-button-prev-3',
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
           },
         });
       </script>
