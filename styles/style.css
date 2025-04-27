@@ -3,6 +3,7 @@
     src: url(resources/fonts/Cinema-Sunday-Font/CinemasundaydemofontRegular-MVzop.otf);
 }
 
+/* Styling page container */
 #page_container {
     width: 1300px;
     height: auto;
@@ -11,26 +12,27 @@
     background-color: #F2E6D6;
 }
 
+/* Styling logo in nav bar */
 #logo{
     float: left;
-    margin-top: 4px;
-    margin-left: 25px;
+    margin-top: 8px;
+    margin-left: 30px;
     width: 110px;
-}
-
-#logo img {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
     border-radius: 15px;
 }
 
+/* Styling logo hover effect */
 #logo:hover {
     scale: 105%;
 }
 
+/* Styling header */
 header {
     border-bottom: #F2E6D6;
 }
 
+/* Styling nav bar */
 nav {
     height: 100px;
     background-color: #8DA7BE;
@@ -38,40 +40,46 @@ nav {
     font-family: cinemasunday;
 }
 
+/* Styling nav bar buttons as ul */
 nav ul {
     display: inline-block;
     list-style-type: none;
-    padding-top: 20px;
-    padding-left: 175px;
+    padding-top: 17px;
 }
 
+/* Styling nav bar buttons as li */
 nav li {
     display: inline-block;
-    padding-right: 140px;
-    
+    padding-left: 90px;
+    padding-right: 30px;
 }
 
+/* Styling nav bar buttons as li a */
 nav li a {
     color: rgba(0, 0, 0, 0.7);
     height: 60px;
     text-decoration: none;
-    font-size: 16pt;
+    font-size: 22pt;
     background-color: #F2E6D6;
-    padding: 2px 15px 3px 15px;
+    padding: 3px 16px 5px 15px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the hover effect of the nav bar buttons */
 nav li a:hover {
-    text-decoration: 1px underline;
-    text-underline-offset: 2px;
+    text-decoration: 2px underline;
+    text-underline-offset: 4px;
 }
 
+/* Styling the nav bar button related to what page the user is on */
 #current {
-    text-underline-offset: 2px;
-    text-decoration: 1px underline;
+    color: rgba(0, 0, 0, 1);
+    text-underline-offset: 4px;
+    text-decoration: 2px underline;
 }
 
+/* Styling the banner image div */
 #banner_img {
     background-color: #8DA7BE;
     margin-top: 5px;
@@ -79,10 +87,11 @@ nav li a:hover {
     position: relative;
 }
 
-#banner_img h1 {
+/* Styling the banner image header */
+#banner_home_h1 {
     position: absolute;
     z-index: 1;
-    color: #F2E6D6;
+    color: white;
     font-size: 80pt;
     padding-left: 265px;
     padding-top: 80px;
@@ -90,23 +99,61 @@ nav li a:hover {
     text-underline-offset: 40px;
 }
 
-#banner_img p {
+/* Styling the banner image sub heading */
+#banner_home_p {
     position: absolute;
     z-index: 1;
-    color: #F2E6D6;
+    color: white;
     font-size: 32pt;
     font-weight: bold;
-    padding-left: 345px;
+    padding-left: 357px;
     padding-top: 270px;
 }
 
+/* Styling the banner image heading for Western page */
+#banner_western_h1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 80pt;
+    padding-left: 325px;
+    padding-top: 120px;
+    text-decoration: underline 3px;
+    text-underline-offset: 20px;
+}
+
+/* Styling the banner image heading for the Eastern page */
+#banner_eastern_h1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 80pt;
+    padding-left: 348px;
+    padding-top: 120px;
+    text-decoration: underline 3px;
+    text-underline-offset: 20px;
+}
+
+/* Styling the banner image heading for the About Us page */
+#banner_aboutus_h1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 80pt;
+    padding-left: 425px;
+    padding-top: 120px;
+    text-decoration: underline 3px;
+    text-underline-offset: 20px;
+}
+
+/* Styling the banner image image */
 #banner_img img {
     object-fit: cover;
-    width: 1240px;
+    width: 1300px;
     height: 530px;
-    margin-top: 28px;
-    margin-left: 30px;
-    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 0px;
     filter: brightness(65%);
 }
 
@@ -118,11 +165,14 @@ nav li a:hover {
     z-index: 1;
 }
 
+/* Styling the western section of home page */
 #home_western {
     display: flex;
 }
 
+/* Styling the western section's image */
 #home_western img {
+    position: relative;
     margin-top: 70px;
     margin-left: 50px;
     width: 500px;
@@ -131,11 +181,12 @@ nav li a:hover {
     height: 320px;
 }
 
+/* Styling the text in the western section */
 #western_txt {
     font-size: 20pt;
     text-align: center;
     width: 565px;
-    margin-left: 36px;
+    margin-left: 42px;
     height: 0px;
     margin-top: 70px;
     color: #F2E6D6;
@@ -145,13 +196,16 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the Explore Western button as li */
 #home_western li {
+    position: relative;
     list-style-type: none;
     font-size: 15pt;
     margin-top: -20px;
     margin-left: 193px;
 }
 
+/* Styling the Explore Western button as li a */
 #home_western li a {
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
@@ -162,11 +216,15 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+
+/* Styling the Explore Western buttons hover effect */
 #home_western li a:hover {
     text-decoration: underline;
 }
 
+/* Styling the Eastern image in the Easterns section of the homepage */
 #eastern_img img {
+    position: relative;
     margin-top: 106px;
     margin-left: 750px;
     width: 500px;
@@ -175,12 +233,13 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the text in the Eastern section */
 #eastern_text {
     font-size: 20pt;
     text-align: center;
     width: 565px;
     margin-top: -334px;
-    margin-left: 52px;
+    margin-left: 46px;
     height: 0px;
     color: #F2E6D6;
     background-color: #7999B5;
@@ -189,13 +248,16 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the Explore Eastern as a li */
 #home_eastern li {
+    position: relative;
     list-style-type: none;
     font-size: 15pt;
     margin-top: -20px;
     margin-left: 900px;
 }
 
+/* Styling the Explore Eastern as a li a */
 #home_eastern li a {
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
@@ -206,10 +268,12 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the Explore Eastern buttons hover effect */
 #home_eastern li a:hover {
     text-decoration: underline;
 }
 
+/* Styling the gray background stripes */
 #hr_1 {
     border: none;
     transform: rotate(90deg);
@@ -222,6 +286,7 @@ nav li a:hover {
     z-index: -1;
 }
 
+/* Styling the gray background stripes */
 #hr_2 {
     border: rgba(0, 0, 0, 0);
     border-style: 0px;
@@ -235,6 +300,7 @@ nav li a:hover {
     z-index: -1;
 }
 
+/* Styling the gray background stripes */
 #hr_3 {
     border: rgba(0, 0, 0, 0);
     border-style: 0px;
@@ -246,6 +312,7 @@ nav li a:hover {
     z-index: -1;
 }
 
+/* Styling the gray background stripes */
 #hr_4 {
     border: rgba(0, 0, 0, 0);
     border-style: 0px;
@@ -264,6 +331,7 @@ nav li a:hover {
     position: relative;
 }
 
+/* Styling the American header */
 #american {
     text-align: center; 
     margin-left: 525px;
@@ -277,6 +345,7 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the swiper slides */
 .swiper {
     width: 1100px;
     height: 500px;
@@ -284,8 +353,10 @@ nav li a:hover {
     border-radius: 20px;
     margin-top: 70px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the images in the swiper slides */
 .swiper-slide img {
     position: absolute;
     width: 450px;
@@ -297,55 +368,78 @@ nav li a:hover {
     z-index: -1;
 }
 
+/* Styling the paragraphs in teh swiper slides */
+.swiper-slide p {
+    text-align: center;
+    font-size: 17pt;
+    color: #F2E6D6;
+    width: 420px;
+    margin-left: 600px;
+    margin-top: -35px;
+}
+
+/* Styling the hover effect for the images */
 .swiper-slide img:hover {
     scale: 102%;
 }
 
+/* Styling the hover effect for the Explore the Recipe button */
+.swiper-slide li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the back arrow */
+.swiper-button-prev {
+    margin-left: 6px;
+}
+
+/* Styling the forward arrow */
+.swiper-button-next {
+    margin-right: 6px;
+}
+
+/* Styling the colour of the back arrow */
+.swiper-button-prev::after {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+  /* Styling the colour of the forward arrow */
+.swiper-button-next::after {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Styling the hover effect for the back arrow */
+.swiper-button-prev:hover{
+    scale: 120%;
+}
+
+/* Styling the hover effect for the forward arrow */
+.swiper-button-next:hover {
+    scale: 120%;
+}
+
+/* Styling the pancakes header */
 .pancakes_h1 {
     color: #F2E6D6;
     margin-left: 670px;
     font-size: 50pt;
 }
 
+/* Styling the burgers header */
 .burgers_h1 {
     color: #F2E6D6;
     margin-left: 687px;
     font-size: 50pt;
 }
 
+/* Styling the hot dogs header */
 .hotdogs_h1 {
     color: #F2E6D6;
     margin-left: 680px;
     font-size: 50pt;
 }
 
-.pancakes_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.burgers_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.hotdogs_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
+/* Styling the Explore the Recipe button as a li */
 .swiper-slide li {
     position: absolute;
     list-style-type: none;
@@ -354,6 +448,7 @@ nav li a:hover {
     left: 164px;
 }
 
+/* Styling the Explore the Recipe button as a li a */
 .swiper-slide li a {
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
@@ -364,32 +459,13 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
-.swiper-slide li a:hover {
-    text-decoration: underline;
-}
-
-.swiper-button-prev::after {
-    color: black;
-  }
-
-.swiper-button-next::after {
-    color: black;
-}
-
-.swiper-button-prev:hover{
-    scale: 110%;
-}
-
-.swiper-button-next:hover {
-    scale: 110%;
-}
-
 /*Styling Italian*/
 
 .swiper_2 {
     margin-top: 70px;
 }
 
+/* Styling the Italian header */
 #italian {
     text-align: center;
     margin-left: 525px;
@@ -403,49 +479,25 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the pizza header */
 .pizza_h1 {
     color: #F2E6D6;
     margin-left: 720px;
     font-size: 50pt;
 }
 
+/* Styling the pasta header */
 .pasta_h1 {
     color: #F2E6D6;
     margin-left: 715px;
     font-size: 50pt;
 }
 
+/* Styling the gelato header */
 .gelato_h1 {
     color: #F2E6D6;
     margin-left: 702px;
     font-size: 50pt;
-}
-
-.pizza_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.pasta_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.gelato_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
 }
 
 /*Styling French*/
@@ -454,6 +506,7 @@ nav li a:hover {
     margin-top: 70px;
 }
 
+/* Styling the French header */
 #french {
     text-align: center;
     margin-left: 525px;
@@ -467,53 +520,28 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the croissant header */
 .croissant_h1 {
     color: #F2E6D6;
     margin-left: 663px;
     font-size: 50pt;
 }
 
+/* Stying the ratataouille header */
 .ratatouille_h1 {
     color: #F2E6D6;
     margin-left: 650px;
     font-size: 50pt;
 }
 
+/* Styling the macarons header */
 .macarons_h1 {
     color: #F2E6D6;
     margin-left: 665px;
     font-size: 50pt;
 }
 
-.croissant_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.ratatouille_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.macarons_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-/*Styling HR*/
-
+/* Stytling the gray background stripes */
 #hr_5 {
     display: flex;
     border: none;
@@ -527,6 +555,7 @@ nav li a:hover {
     z-index: 0;
 }
 
+/* Stytling the gray background stripes */
 #hr_6 {
     display: flex;
     border: none;
@@ -540,6 +569,7 @@ nav li a:hover {
     z-index: 0;
 }
 
+/* Stytling the gray background stripes */
 #hr_7 {
     display: flex;
     border: none;
@@ -551,6 +581,7 @@ nav li a:hover {
     z-index: 0;
 }
 
+/* Stytling the gray background stripes */
 #hr_8 {
     display: flex;
     border: none;
@@ -562,6 +593,7 @@ nav li a:hover {
     z-index: 0;
 }
 
+/* Stytling the gray background stripes */
 #hr_9 {
     display: flex;
     border: none;
@@ -580,6 +612,7 @@ nav li a:hover {
     position: relative;
 }
 
+/* Styling the Middle East header */
 #middle_east {
     text-align: center; 
     margin-left: 500px;
@@ -593,53 +626,30 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the kebab header */
 .kebab_h1 {
     color: #F2E6D6;
     margin-left: 708px;
     font-size: 50pt;
 }
 
+/* Styling the falafel header */
 .falafel_h1 {
     color: #F2E6D6;
     margin-left: 700px;
     font-size: 50pt;
 }
 
+/* Styling the shakshuka header */
 .shakshuka_h1 {
     color: #F2E6D6;
     margin-left: 645px;
     font-size: 50pt;
 }
 
-.kebab_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.falafel_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.shakshuka_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
 /*Styling China*/
 
+/* Styling the China header */
 #china {
     text-align: center;
     margin-left: 525px;
@@ -653,53 +663,30 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the hot pot header*/
 .hotpot_h1 {
     color: #F2E6D6;
     margin-left: 690px;
     font-size: 50pt;
 }
 
+/* Styling the xiao long bao header */
 .xiaolongbao_h1 {
     color: #F2E6D6;
     margin-left: 595px;
     font-size: 50pt;
 }
 
+/* Styling the fried rice header */
 .friedrice_h1 {
     color: #F2E6D6;
     margin-left: 600px;
     font-size: 50pt;
 }
 
-.hotpot_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.xiaolongbao_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.friedrice_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
 /*Styling Japanese*/
 
+/* Styling the Japanese header */
 #japanese {
     text-align: center;
     margin-left: 525px;
@@ -713,49 +700,25 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the ramen header */
 .ramen_h1 {
     color: #F2E6D6;
     margin-left: 690px;
     font-size: 50pt;
 }
 
+/* Styling the sushi header */
 .sushi_h1 {
     color: #F2E6D6;
     margin-left: 723px;
     font-size: 50pt;
 }
 
+/* Styling the katsu chicken header */
 .katsu_chicken_h1 {
     color: #F2E6D6;
     margin-left: 597px;
     font-size: 50pt;
-}
-
-.ramen_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.sushi_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
-}
-
-.katsu_chicken_p {
-    text-align: center;
-    font-size: 17pt;
-    color: #F2E6D6;
-    width: 420px;
-    margin-left: 600px;
-    margin-top: -35px;
 }
 
 /*Styling About Us Page*/
@@ -766,6 +729,16 @@ nav li a:hover {
     z-index: 1;
 }
 
+/* Styling the about us header on the banner image */
+#about_us_h1 {
+    font-size: 30pt;
+    text-align: center;
+    color: #F2E6D6;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+/* Styling the first image of people cooking */
 #peoplecooking {
     object-fit: cover;
     margin-top: 50px;
@@ -776,6 +749,7 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the first about us paragraph: My passions */
 #about_us_1 {
     font-size: 23pt;
     text-align: center;
@@ -785,11 +759,12 @@ nav li a:hover {
     height: 0px;
     color: #F2E6D6;
     background-color: #7999B5;
-    padding: 48px 50px 403px 50px;
+    padding: 10px 50px 441px 50px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the second image of people cooking */
 #peoplecooking_2 {
     object-fit: cover;
     margin-top: 50px;
@@ -800,6 +775,7 @@ nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the second about us paragraph: Target audience */
 #about_us_2 {
     font-size: 23pt;
     text-align: center;
@@ -809,11 +785,12 @@ nav li a:hover {
     height: 0px;
     color: #F2E6D6;
     background-color: #7999B5;
-    padding: 50px 50px 401px 50px;
+    padding: 12px 50px 439px 50px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 }
 
+/* Styling the gray background stripes */
 #hr_10 {
     display: flex;
     border: none;
@@ -827,6 +804,7 @@ nav li a:hover {
     z-index: -1;
 }
 
+/* Styling the gray background stripes */
 #hr_11 {
     display: flex;
     border: none;
@@ -840,6 +818,7 @@ nav li a:hover {
     z-index: -1;
 }
 
+/* Styling the gray background stripes */
 #hr_12 {
     display: flex;
     border: none;
@@ -851,6 +830,7 @@ nav li a:hover {
     z-index: -1;
 }
 
+/* Styling the gray background stripes */
 #hr_13 {
     display: flex;
     border: none;
@@ -869,20 +849,28 @@ footer {
     background-color: #8DA7BE;
 }
 
+/* Styling the footer logo */
 #footerlogo img{
     float: left;
-    width: 250px;
-    margin-top: 23px;
-    margin-left: 50px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 70px;
     border-radius: 30px;
 }
 
+/* Styling the footer logo hover effect */
+#footerlogo img:hover {
+    scale: 105%;
+}
+
+/* Styling the footer navigation section */
 #footer_nav {
     float: left;
-    padding-left: 200px;
+    padding-left: 170px;
     padding-top: 30px;
 }
 
+/* Styling the footer navigation header */
 #footer_nav h1 {
     color: #F2E6D6;
     text-decoration: underline;
@@ -890,6 +878,7 @@ footer {
     margin: -5px;
 }
 
+/* Styling the footer navigation buttons as ul */
 #footer_nav ul {
     list-style-type: none;
     font-size: 15pt;
@@ -897,21 +886,25 @@ footer {
     display: inline;
 }
 
+/* Styling the footer navigation buttons as li */
 #footer_nav li {
     padding-bottom: 10px;
 }
 
+/* Styling the footer navigation buttons as li a */
 #footer_nav li a {
     color: #F2E6D6;
     font-family: cinemasunday;
     text-decoration: none;
 }
 
+/* Styling the footer navigation buttons hover effect */
 #footer_nav li a:hover {
     text-decoration: underline;
     text-underline-offset: 3px;
 }
 
+/* Styling the footer contact section */
 #contact {
     float: left;
     padding-left: 220px;
@@ -919,6 +912,7 @@ footer {
     text-align: center;
 }
 
+/* Styling the footer contact header */
 #contact h1 {
     color: #F2E6D6;
     text-decoration: underline;
@@ -926,6 +920,7 @@ footer {
     margin: -5px;
 }
 
+/* Styling the footer contact buttons as ul */
 #contact ul {
     list-style-type: none;
     display: inline;
@@ -933,22 +928,26 @@ footer {
     font-size: 15pt;
 }
 
+/* Styling the footer contact buttons as li */
 #contact li {
     padding-top: 0px;
     padding-bottom: 23px;
 }
 
+/* Styling the footer contact buttons as li a */
 #contact li a {
     color: #F2E6D6;
     font-family: cinemasunday;
     text-decoration: none;
 }
 
+/* Styling the footer contact social media icons */
 #contact img {
     width: 25px;
     padding-top: 3px;
 }
 
+/* Styling the footer contact buttons hover effect */
 #contact li a:hover {
     text-decoration: underline;
     text-underline-offset: 3px;
