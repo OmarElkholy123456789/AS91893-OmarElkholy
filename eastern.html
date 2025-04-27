@@ -43,10 +43,6 @@
                       <a data-fancybox="gallery_1" href="resources/images/kebab2.jpg"></a> <!-- Additional Pancake image -->
                       <a data-fancybox="gallery_1" href="resources/images/kebab3.webp"></a> <!-- Additional Pancake image -->
                       <li><a href="https://www.themediterraneandish.com/kofta-kebab-recipe/" target="_blank">Explore the Recipe</a></li> <!-- Link to recipe -->
-                      <!-- Initialise Fancybox for gallery 1 -->
-                      <script>
-                        Fancybox.bind("[data-fancybox='gallery_1']", {});
-                      </script>  
                   </div>
                   <div class="swiper-slide"> 
                     <!-- Slide for falafel -->
@@ -62,10 +58,6 @@
                       <a data-fancybox="gallery_2" href="resources/images/falafel3.jpg"></a>
                       <!-- Link to falafel recipe -->
                       <li><a href="https://www.themediterraneandish.com/how-to-make-falafel/" target="_blank">Explore the Recipe</a></li>
-                      <!-- Initialise fancyboxd image gallery 2 -->
-                      <script>
-                        Fancybox.bind("[data-fancybox='gallery_2']", {});
-                      </script>
                   </div>
                   <div class="swiper-slide">
                     <!-- Slide for shakshuka -->
@@ -81,10 +73,6 @@
                       <a data-fancybox="gallery_3" href="resources/images/shakshuka3.jpeg"></a>
                       <!-- Link to shakshuka recipe -->
                       <li><a href="https://downshiftology.com/recipes/shakshuka/" target="_blank">Explore the Recipe</a></li>
-                      <!-- Initialise fancybox gallery 3 -->
-                      <script>
-                        Fancybox.bind("[data-fancybox='gallery_3']", {});
-                      </script>  
                   </div>
               </div>
               <!-- pagination and arrows -->
@@ -113,10 +101,6 @@
                     <a data-fancybox="gallery_4" href="resources/images/hotpot3.jpg"></a>
                     <!-- Link to hot pot recipe -->
                     <li><a href="https://thewoksoflife.com/chinese-hot-pot-at-home/" target="_blank">Explore the Recipe</a></li>
-                    <!-- Initialise fancybox gallery 4 -->
-                    <script>
-                      Fancybox.bind("[data-fancybox='gallery_4']", {});
-                    </script>  
                 </div>
                 <!-- Slide for Xiao Long Bao -->
                 <div class="swiper-slide">
@@ -132,10 +116,6 @@
                     <a data-fancybox="gallery_5" href="resources/images/xiaolongbao3.jpg"></a>
                     <!-- Xiao Long Bao recipe link -->
                     <li><a href="https://redhousespice.com/xiao-long-bao-soup-dumplings/" target="_blank">Explore the Recipe</a></li>
-                    <!-- Initialise fancybox gallery 5 -->
-                    <script>
-                      Fancybox.bind("[data-fancybox='gallery_5']", {});
-                    </script>
                 </div>
                 <!-- Slide for egg fried rice -->
                 <div class="swiper-slide">
@@ -151,10 +131,6 @@
                     <a data-fancybox="gallery_6" href="resources/images/friedrice3.jpg"></a>
                     <!-- Egg fried rice recipe link -->
                     <li><a href="https://www.recipetineats.com/egg-fried-rice/" target="_blank">Explore the Recipe</a></li>
-                    <!-- Initialise fancybox gallery 6 -->
-                    <script>
-                      Fancybox.bind("[data-fancybox='gallery_6']", {});
-                    </script>  
                 </div>
             </div>
             <!-- pagination and slide arrows -->
@@ -183,10 +159,6 @@
                     <a data-fancybox="gallery_7" href="resources/images/ramen3.jpeg"></a>
                     <!-- Ramen recipe link -->
                     <li><a href="https://pinchofyum.com/quick-homemade-ramen" target="_blank">Explore the Recipe</a></li>
-                    <!-- Initialise fancybox gallery 7 -->
-                    <script>
-                      Fancybox.bind("[data-fancybox='gallery_7']", {});
-                    </script>
                 </div>
                 <!-- Slide for sushi -->
                 <div class="swiper-slide">
@@ -202,10 +174,6 @@
                     <a data-fancybox="gallery_8" href="resources/images/sushi3.jpg"></a>
                     <!-- Sushi recipe link -->
                     <li><a href="https://www.allrecipes.com/recipe/24228/sushi-roll/" target="_blank">Explore the Recipe</a></li>
-                    <!-- Initialise fancybox gallery 8 -->
-                    <script>
-                      Fancybox.bind("[data-fancybox='gallery_8']", {});
-                    </script>
                 </div>
                 <!-- Slide for katsu chicken -->
                 <div class="swiper-slide">
@@ -221,10 +189,6 @@
                     <a data-fancybox="gallery_9" href="resources/images/katsu3.jpg"></a>
                     <!-- Katsu chicken recipe link-->
                     <li><a href="https://www.allrecipes.com/recipe/72068/chicken-katsu/" target="_blank">Explore the Recipe</a></li>
-                    <!-- Initialise fancybox gallery 9 -->
-                    <script>
-                      Fancybox.bind("[data-fancybox='gallery_9']", {});
-                    </script>
                 </div>
             </div>
             <!-- Slide pagination and arrows -->
@@ -241,9 +205,8 @@
         <!-- End of Western food section -->
       </section>
       
-      <!-- Script to initialize all Swipers -->
+      <!-- Script to initialize  Swiper.JS sciprt -->
       <script>
-        // Swiper 1
         const swiper1 = new Swiper('.swiper', {
           direction: 'horizontal',
           loop: true,
@@ -255,6 +218,17 @@
             prevEl: '.swiper-button-prev',
           },
         });
+
+        // Initialise fancybox galleries
+        Fancybox.bind("[data-fancybox='gallery_1']", {});
+        Fancybox.bind("[data-fancybox='gallery_2']", {});
+        Fancybox.bind("[data-fancybox='gallery_3']", {});
+        Fancybox.bind("[data-fancybox='gallery_4']", {});
+        Fancybox.bind("[data-fancybox='gallery_5']", {});
+        Fancybox.bind("[data-fancybox='gallery_6']", {});
+        Fancybox.bind("[data-fancybox='gallery_7']", {});
+        Fancybox.bind("[data-fancybox='gallery_8']", {});
+        Fancybox.bind("[data-fancybox='gallery_9']", {});
       </script>
 
         <footer>
